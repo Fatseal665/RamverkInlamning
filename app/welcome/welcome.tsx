@@ -1,5 +1,7 @@
 import { Link } from "react-router";
+import "../welcome/welcome.css"
 export function Welcome() {
+
   return (
     <body>
       <main>
@@ -14,7 +16,12 @@ export function Welcome() {
             </button>
           </nav>
         </header>
+        <section id= "breadtext">
         <p>Welcome to home page!</p>
+        <div>
+
+        </div>
+        </section>
         <footer>
           <h3>Copyright Eriksson CORP 2025</h3>
         </footer>

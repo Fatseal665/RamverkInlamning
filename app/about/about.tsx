@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import { useState } from "react";
+import "../about/about.css";
 export function About() {
   const [score, setScore] = useState<number>(0)
 
@@ -26,6 +27,7 @@ export function About() {
             </button>
           </nav>
         </header>
+        <section id= "breadtext">
         <p>Welcome to about page!</p>
         <div>
           <p>Score: {score}</p>
@@ -34,6 +36,7 @@ export function About() {
         <div>
         <button onClick={subtraction}>-1</button>
         </div>
+        </section>
         <footer>
           <h3>Copyright Eriksson CORP 2025</h3>
         </footer>
