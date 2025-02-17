@@ -1,5 +1,6 @@
 import { Link } from "react-router";
-export function Welcome() {
+import { useState } from "react";
+export function About() {
   return (
     <body>
       <main>
@@ -14,7 +15,10 @@ export function Welcome() {
             </button>
           </nav>
         </header>
-        <p>Welcome to home page!</p>
+        <p>Welcome to about page!</p>
+        <div>
+          
+        </div>
         <footer>
           <h3>Copyright Eriksson CORP 2025</h3>
         </footer>
