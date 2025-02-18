@@ -1,12 +1,11 @@
 import { Link } from "react-router";
-import "../welcome/welcome.css"
+import "../welcome/welcome.css";
 export function Welcome() {
-
   return (
     <body>
       <main>
         <header>
-          <h1>Webbsida</h1>
+          <h1>Lobster INC</h1>
           <nav>
             <button>
               <Link to={"/"}>Home</Link>
@@ -16,14 +15,19 @@ export function Welcome() {
             </button>
           </nav>
         </header>
-        <section id= "breadtext">
-        <p>Welcome to home page!</p>
-        <div>
-
-        </div>
+        <section id="hero-section">
+          <img
+            id="hero-image"
+            src="https://i.ytimg.com/vi/EX6qG_pcxG0/maxresdefault.jpg"
+            alt="Huvudbild"
+          />
+          <h2>Välkommen</h2>
         </section>
-        <footer>
-          <h3>Copyright Eriksson CORP 2025</h3>
+        <section id="breadtext">
+          <p>Welcome to home page!</p>
+        </section>
+        <footer id="footer">
+        <p>&#169;2025 BlueLobster Group</p>
         </footer>
       </main>
     </body>
