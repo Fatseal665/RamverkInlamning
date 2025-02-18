@@ -13,7 +13,6 @@ export function About() {
   }
 
   return (
-    <body>
       <main>
         <header>
           <h1>Lobster INC</h1>
@@ -46,6 +45,5 @@ export function About() {
           <p>&#169;2025 BlueLobster Group</p>
         </footer>
       </main>
-    </body>
   );
 }
